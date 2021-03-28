@@ -1,22 +1,25 @@
 {
-  "name": "socket-backend",
-  "version": "1.0.0",
-  "description": "Application de messagerie instantanée",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Miharisoa/ChatApp.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Miharisoa/ChatApp/issues"
-  },
-  "homepage": "https://github.com/Miharisoa/ChatApp#readme",
-  "dependencies": {
-    "express": "^4.15.2"
-  }
+    "name": "socket-backend",
+    "version": "1.0.0",
+    "description": "Application de messagerie instantanée",
+    "main": "index.js",
+    "scripts": {
+        "serve": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Miharisoa/ChatApp.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Miharisoa/ChatApp/issues"
+    },
+    "homepage": "https://github.com/Miharisoa/ChatApp#readme",
+    "dependencies": {
+        "express": "^4.15.2",
+        "nodemon": "^2.0.7",
+        "socket.io": "^4.0.0"
+    }
 }
